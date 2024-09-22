@@ -1,0 +1,23 @@
+{
+  "name": "my-netlify-project",
+  "version": "1.0.0",
+  "description": "Node.js app deployed on Netlify with YouTube authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo 'Nothing to build'",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "querystring": "^0.2.0",
+    "serverless-http": "^2.3.2"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  },
+  "author": "Anagh Miglani",
+  "license": "MIT"
+}
